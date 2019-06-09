@@ -69,6 +69,7 @@ console.log(sum(2)(3));  // Outputs 5
 
 What is a “closure” in JavaScript? Provide an example.
 
+```
 function createCounter() {
     let counter = 0
     const myFunction = function () {
@@ -82,6 +83,7 @@ const c1 = increment()
 const c2 = increment()
 const c3 = increment()
 console.log('example increment', c1, c2, c3)
+```
 
 
 What will be the output when the following code is executed? Explain.
@@ -111,8 +113,10 @@ How do you clone an object?
 
 What do the following lines output, and why?
 
+```
 console.log(1 < 2 < 3);
 console.log(3 > 2 > 1);
+```
 
 How do you add an element at the begining of an array? How do you add one at the end?
 
